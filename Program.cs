@@ -13,6 +13,8 @@ namespace TorokDonat_osztalyokGittel
             Konyv harryPotter = new Konyv("Harry Potter és a Bölcsek Köve", "J.K. Rowling", 1997, 320, 4500);
             Console.WriteLine(harryPotter.ToString());
 
+            Film harryPotterFilm = new Film("Harry Potter és a Bölcsek Köve", "Chris Columbus", 152, "Fantasy", true);
+            Console.WriteLine(harryPotterFilm);
             Console.ReadKey();
         }
     }
