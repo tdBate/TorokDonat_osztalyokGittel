@@ -22,6 +22,9 @@ namespace TorokDonat_osztalyokGittel
             Urhajo urhajo1 = new Urhajo("Apollo 11", 120, 3, 80);
             Console.WriteLine(urhajo1);
 
+            Kem kem1 = new Kem("007","Anglia",12,74);
+            Console.WriteLine(kem1);
+
             Console.ReadKey();
         }
     }
