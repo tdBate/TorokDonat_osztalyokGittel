@@ -15,6 +15,10 @@ namespace TorokDonat_osztalyokGittel
 
             Film harryPotterFilm = new Film("Harry Potter és a Bölcsek Köve", "Chris Columbus", 152, "Fantasy", true);
             Console.WriteLine(harryPotterFilm);
+
+            Karakter karakter1 = new Karakter("Harry", 5, 120, 50);
+            Console.WriteLine(karakter1);
+
             Console.ReadKey();
         }
     }
