@@ -19,6 +19,9 @@ namespace TorokDonat_osztalyokGittel
             Karakter karakter1 = new Karakter("Harry", 5, 120, 50);
             Console.WriteLine(karakter1);
 
+            Urhajo urhajo1 = new Urhajo("Apollo 11", 120, 3, 80);
+            Console.WriteLine(urhajo1);
+
             Console.ReadKey();
         }
     }
