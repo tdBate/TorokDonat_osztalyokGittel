@@ -10,6 +10,10 @@ namespace TorokDonat_osztalyokGittel
     {
         static void Main(string[] args)
         {
+            Konyv harryPotter = new Konyv("Harry Potter és a Bölcsek Köve", "J.K. Rowling", 1997, 320, 4500);
+            Console.WriteLine(harryPotter.ToString());
+
+            Console.ReadKey();
         }
     }
 }
